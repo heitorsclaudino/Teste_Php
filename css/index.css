@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10 30px;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+}
+
+form div {
+    display: flex;
+    width: 60%;
+}
+
+form div input {
+    width: 100%;
+}
+
+form input {
+    width: 60%;
+    margin-top: 15px;
+}
+
+#creci {
+    margin-left: 35px;
+}
+
+#btnEnviar {
+    background-color: rgb(13, 77, 77);
+    color: white;
+    height: 25px;
+    border: none;
+}
+
+h3 {
+    margin-top: 45px;
+}
+
+table {
+    margin-top: 15px;
+    width: 65%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    width: 25%;
+}
+
+.links {
+    margin-left: 10px;
+}
+
+.escondidos {
+    display: none;
+}
+
